@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<title>| ポータル</title>
+<!--
+<meta name="google-site-verification" content="">
+<meta name="description" content="サイトの説明">
+<meta name="twitter:card" content="Twitterのカードの種類 summary">
+<meta name="twitter:site" content="Twitterのユーザー名 @">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://">
+<meta property="og:image" content="カードの画像のURL">
+<meta property="og:site_name" content="サイト名">
+<meta property="og:title" content="記事のタイトル">
+<meta property="og:description" content="記事の概要">
+<meta property="fb:app_id" content="facebookのユーザ名">
+-->
+<link rel="canonical" href="https://">
+<link rel="shortcut icon" href="img/favicon.ico">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="stylesheet" href="css/index.css">
+<script src="js/loading.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/nav.js"></script>
+<script src="js/sns.js"></script>
+<script src="js/grid.js"></script>
+<script src="js/details.js"></script>
+<script src="js/list.js"></script>
+<script src="js/image.js"></script>
+<script src="js/swiper.js"></script>
+<script src="js/pagetop.js"></script>
+<script src="js/lazyload.js"></script>
+<script src="js/googlemap.js"></script>
+<script src="js/index.js"></script>
+<script>
+const _sns = {
+    facebook  : 'https://fantia.jp/fanclubs/322047',
+    twitter   : 'https://twitter.com/akuta_mid?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3Aakuta_mid%7Ctwgr%5EeyJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9mZiIsInZlcnNpb24iOm51bGx9LCJ0ZndfcmVmc3JjX3Nlc3Npb24iOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X3Jlc3VsdF9taWdyYXRpb25fMTM5NzkiOnsiYnVja2V0IjoidHdlZXRfcmVzdWx0IiwidmVyc2lvbiI6bnVsbH0sInRmd19zZW5zaXRpdmVfbWVkaWFfaW50ZXJzdGl0aWFsXzEzOTYzIjp7ImJ1Y2tldCI6ImludGVyc3RpdGlhbCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2R1cGxpY2F0ZV9zY3JpYmVzX3RvX3NldHRpbmdzIjp7ImJ1Y2tldCI6Im9mZiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvZmYiLCJ2ZXJzaW9uIjpudWxsfX0%3D&ref_url=https%3A%2F%2Flibe-nippori.com%2Fprofile-onoyamidori.html',
+    instagram : 'https://www.instagram.com/midlune_302/?igshid=YmMyMTA2M2Y=',
+    tiktok    : 'https://www.tiktok.com/tag/%E3%81%BF%E3%81%A9%E3%82%8A%E3%82%93',
+    note      : 'https://note.com/xyz_rigret/',
+};
+
+const _googlemap = 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.780575468928!2d139.7673223152602!3d35.73086478018276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188dd6e2590abd%3A0xc068dbca9dcca699!2z44CSMTE2LTAwMTMg5p2x5Lqs6YO96I2S5bed5Yy66KW_5pel5pqu6YeM77yS5LiB55uu77yV77yT4oiS77yZ!5e1!3m2!1sja!2sjp!4v1659708860049!5m2!1sja!2sjp';
+</script>
+</head>
+<body>
+
+<script>loading('<img src="img/loading/character.png"><p>Now Loading …</p>');</script>
+
+<div id="wrapper">
+
+<header>
+  <ul class="carousel">
+    <li data-src="img/carousel/1.jpg">
+      <h1>メッセージ1</h1>
+      <p>「<strong>xxx</strong>」の情報を配信しています。</p>
+    </li>
+    <li data-src="img/carousel/2.jpg">
+      <h1>メッセージ2</h1>
+      <p>「<strong>xxx</strong>」の情報を配信しています。</p>
+    </li>
+    <li data-src="img/carousel/3.jpg">
+      <h1>メッセージ3</h1>
+      <p>「<strong>xxx</strong>」の情報を配信しています。</p>
+    </li>
+    <li data-src="img/carousel/4.jpg">
+      <h1>メッセージ4</h1>
+      <p>「<strong>xxx</strong>」の情報を配信しています。</p>
+    </li>
+  </ul>
+</header>
+
+<nav>
+  <ul>
+    <li><a href="javascript:href('#profile')">プロフィール</a></li>
+    <li><a href="javascript:href('#news')">ニュース</a></li>
+    <li><a href="javascript:href('#event')">イベント</a></li>
+    <li><a href="javascript:href('#galally')">ギャラリー</a></li>
+    <li><a href="javascript:href('#friend')">フレンド</a></li>
+    <li><a href="javascript:href('#access')">アクセス</a></li>
+  </ul>
+</nav>
+
+<aside class="sns"></aside>
+
+<article>
+  <section>
+    <ul class="grid">
+      <li data-src="img/grid/1.jpg"></li>
+      <li data-src="img/grid/2.jpg"></li>
+      <li data-src="img/grid/3.jpg"></li>
+      <li data-src="img/grid/4.jpg"></li>
+      <li data-src="img/grid/5.jpg"></li>
+      <li data-src="img/grid/6.jpg"></li>
+      <li data-src="img/grid/7.jpg"></li>
+      <li data-src="img/grid/8.jpg"></li>
+      <li data-src="img/grid/9.jpg"></li>
+    </ul>
+  </section>
+
+  <section id="profile">
+    <details>
+      <summary>プロフィール</summary>
+
+      <div>あいうえおかきくけこさしすせそたちつてと<br>あいうえおかきくけこさしすせそたちつてと<br>あいうえおかきくけこさしすせそたちつてと<br>あいうえおかきくけこさしすせそたちつてと<br></div>
+    </details>
+  </section>
+
+  <section id="news">
+    <details>
+      <summary>ニュース</summary>
+
+      <ul class="list">
+        <li data-href="/" data-src="img/news/1.jpg"><h2>タイトル</h2><p>テキスト</p></li>
+        <li data-href="/" data-src="img/news/2.jpg"><h2>タイトル</h2><p>テキスト</p></li>
+        <li data-href="/" data-src="img/news/3.jpg"><h2>タイトル</h2><p>テキスト</p></li>
+      </ul>
+    </details>
+  </section>
+
+  <section id="event">
+    <details>
+      <summary>イベント</summary>
+
+      <p>horizontal</p>
+      <div data-src="img/event/1.jpg" loading="lazy" class="horizontal" style="background-color:lightgray;"></div>
+
+      <p>square</p>
+      <div data-src="img/event/2.jpg" loading="lazy" class="square" style="background-color:lightgray;"></div>
+
+      <p>vertical</p>
+      <div data-src="img/event/3.jpg" loading="lazy" class="vertical" style="background-color:lightgray;"></div>
+    </details>
+  </section>
+
+  <section id="galally">
+    <details>
+      <summary>ギャラリー</summary>
+
+      <p>horizontal</p>
+      <div data-src="img/galally/1.jpg" loading="lazy" class="horizontal" style="background-color:lightgray;"></div>
+
+      <p>square</p>
+      <div data-src="img/galally/2.jpg" loading="lazy" class="square" style="background-color:lightgray;"></div>
+
+      <p>vertical</p>
+      <div data-src="img/galally/3.jpg" loading="lazy" class="vertical" style="background-color:lightgray;"></div>
+    </details>
+  </section>
+
+  <section id="friend">
+    <details>
+      <summary>フレンド</summary>
+
+      <ul class="swiper">
+        <li data-src="img/friend/1.jpg"><a href="https://twitter.com/akuta_mid?ref_src=twsrc%5Etfw%7Ctwcamp%5Eembeddedtimeline%7Ctwterm%5Eprofile%3Aakuta_mid%7Ctwgr%5EeyJ0ZndfdHdlZXRfZWRpdF9iYWNrZW5kIjp7ImJ1Y2tldCI6Im9mZiIsInZlcnNpb24iOm51bGx9LCJ0ZndfcmVmc3JjX3Nlc3Npb24iOnsiYnVja2V0Ijoib24iLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3R3ZWV0X3Jlc3VsdF9taWdyYXRpb25fMTM5NzkiOnsiYnVja2V0IjoidHdlZXRfcmVzdWx0IiwidmVyc2lvbiI6bnVsbH0sInRmd19zZW5zaXRpdmVfbWVkaWFfaW50ZXJzdGl0aWFsXzEzOTYzIjp7ImJ1Y2tldCI6ImludGVyc3RpdGlhbCIsInZlcnNpb24iOm51bGx9LCJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2R1cGxpY2F0ZV9zY3JpYmVzX3RvX3NldHRpbmdzIjp7ImJ1Y2tldCI6Im9mZiIsInZlcnNpb24iOm51bGx9LCJ0ZndfdHdlZXRfZWRpdF9mcm9udGVuZCI6eyJidWNrZXQiOiJvZmYiLCJ2ZXJzaW9uIjpudWxsfX0%3D&ref_url=https%3A%2F%2Flibe-nippori.com%2Fprofile-onoyamidori.html" target="_1">1</a></li>
+        <li data-src="img/friend/2.jpg">2</li>
+        <li data-src="img/friend/3.jpg">3</li>
+        <li data-src="img/friend/4.jpg">4</li>
+        <li data-src="img/friend/5.jpg">5</li>
+        <li data-src="img/friend/6.jpg">6</li>
+      </ul>
+    </details>
+  </section>
+
+  <section id="access">
+    <details>
+      <summary>アクセス</summary>
+
+      <div id="googlemap"></div>
+
+      <div id="info">
+        <div id="train">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M437.575,351.629V89.868C437.575,40.233,397.351,0,347.707,0H164.293c-49.625,0-89.868,40.233-89.868,89.868v261.761c0,37.628,27.383,68.98,63.269,75.221L81.334,512h50.11l23.132-34.961h202.867L380.574,512h50.101l-56.35-85.15C410.201,420.601,437.575,389.257,437.575,351.629z M178.182,40.348h155.636v25.94H178.182V40.348z M131.355,124.186c0-11.284,9.137-20.438,20.421-20.438h208.456c11.276,0,20.429,9.154,20.429,20.438v86.206c0,11.284-9.154,20.429-20.429,20.429H151.777c-11.284,0-20.421-9.145-20.421-20.429V124.186z M150.808,374.004c-13.158,0-23.826-10.668-23.826-23.818c0-13.167,10.668-23.836,23.826-23.836c13.159,0,23.827,10.668,23.827,23.836C174.635,363.336,163.967,374.004,150.808,374.004z M169.618,454.312l17.41-26.318h137.953l17.41,26.318H169.618z M361.201,374.004c-13.158,0-23.826-10.668-23.826-23.818c0-13.167,10.668-23.836,23.826-23.836c13.159,0,23.827,10.668,23.827,23.836C385.028,363.336,374.36,374.004,361.201,374.004z"></path></svg>&nbsp;
+          <span>JR 山の手線 「 日暮里駅 」 徒歩 5 分</span>
+        </div>
+
+        <div id="address">
+          <span>〒 116 - 0013</span><br>
+          <span>東京都 荒川区 2 丁目 53 - 9</span>
+        </div>
+
+        <div id="telephone">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M403.854,409.684c-17.68-14.106-72.76-41.247-86.349-44.375c-13.562-3.154-29.98,9.962-34.501,26.248c-4.547,16.295-13.027,14.753-13.027,14.753s-32.67-12.003-92.429-71.534c-59.769-59.549-71.85-92.175-71.85-92.175s-1.595-8.48,14.692-13.089c16.252-4.564,29.314-21.035,26.125-34.598c-3.171-13.562-30.532-68.563-44.69-86.165c-14.192-17.601-41.606-8.524-47.633-4.135C48.13,108.987-15.581,149.49,3.58,224.072c19.186,74.592,60.346,134.264,105.579,179.348c45.242,45.066,105.062,85.998,179.715,104.904c74.644,18.915,114.919-44.944,119.274-51.006C412.51,451.273,421.481,423.816,403.854,409.684z"></path><path d="M247.023,189.177c9.9,4.854,25.644,13.86,43.893,32.1c18.25,18.25,27.247,33.993,32.1,43.884c5.099,10.4,8.866,12.494,11.915,11.784c5.029-1.166,6.702-2.515,7.167-13.001c0.385-8.936-3.89-35.588-31.076-62.773c-27.186-27.186-53.846-31.452-62.764-31.067c-10.496,0.447-11.828,2.129-12.992,7.175C234.555,180.311,236.623,184.087,247.023,189.177z"></path><path d="M262.95,84.247c-12.808-0.009-16.042,7.92-16.428,10.995c-0.788,6.212,3.794,11.249,13.308,13.974c10.881,3.11,53.986,16.935,90.099,53.048c36.122,36.113,49.956,79.226,53.057,90.107c2.716,9.506,7.744,14.08,13.964,13.3c3.092-0.369,11.012-3.61,10.995-16.418c0.009-10.137-6.186-63.22-53.986-111.038C326.17,90.423,273.06,84.237,262.95,84.247z"></path><path d="M437.304,74.889C368.836,6.422,296.602,0.526,284.187,0.201c-15.157-0.385-21.167,6.414-21.158,13.387c-0.009,5.94,6.08,12.046,15.139,14.377c13.597,3.486,67.495,11.976,130.784,75.266c63.307,63.29,71.78,117.197,75.284,130.803c2.322,9.041,8.437,15.139,14.368,15.139c6.982,0,13.781-6.002,13.378-21.149C511.667,215.601,505.771,143.366,437.304,74.889z"></path></svg>&nbsp;
+          <a href="tel:03-6806-5388">03-6806-5388</a>
+        </div>
+
+        <div id="hour">
+          <span>AM 12:00 ～ LAST</span>
+        </div>
+
+        <div id="company-name">
+          <span>LIBE 日暮里店</span>
+        </div>
+
+        <div class="sns" style="background:none;"></div>
+
+        <div id="copyright">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M10.08 10.86c.05-.33.16-.62.3-.87s.34-.46.59-.62c.24-.15.54-.22.91-.23.23.01.44.05.63.13.2.09.38.21.52.36s.25.33.34.53.13.42.14.64h1.79c-.02-.47-.11-.9-.28-1.29s-.4-.73-.7-1.01-.66-.5-1.08-.66-.88-.23-1.39-.23c-.65 0-1.22.11-1.7.34s-.88.53-1.2.92-.56.84-.71 1.36S8 11.29 8 11.87v.27c0 .58.08 1.12.23 1.64s.39.97.71 1.35.72.69 1.2.91c.48.22 1.05.34 1.7.34.47 0 .91-.08 1.32-.23s.77-.36 1.08-.63.56-.58.74-.94.29-.74.3-1.15h-1.79c-.01.21-.06.4-.15.58s-.21.33-.36.46-.32.23-.52.3c-.19.07-.39.09-.6.1-.36-.01-.66-.08-.89-.23-.25-.16-.45-.37-.59-.62s-.25-.55-.3-.88-.08-.67-.08-1v-.27c0-.35.03-.68.08-1.01zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"></path></svg>&nbsp;
+          <span>copyright.</span>
+        </div>
+
+    </details>
+  </section>
+</article>
+
+</div>
+
+</body>
+</html>
